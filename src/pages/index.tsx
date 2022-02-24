@@ -54,10 +54,13 @@ export default function Home() {
         
         <button className={styles.button}>Carregar mais posts</button>
       </main>
+      <div >
 
+      </div>
     </>
   )
 }
+
 export const getStaticProps: GetStaticProps<HomeProps> = async ({
   preview = false,
   previewData,
