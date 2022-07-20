@@ -4,13 +4,13 @@
   padding: 0;
 }
 
-// TODO
 :root {
-  --Highlight: #ff57b2;
-  --Heading: #f8f8f8;
-  --Background: #1a1d23;
-  --Info: #bbbbbb;
-  --Body: #d7d7d7;
+  --gray-100: #D7D7D7;
+  --gray-200: #BBBBBB;
+
+  --black: #1A1D23;
+  --white: #F8F8F8;
+  --pink: #FF57B2;
 }
 
 @media (max-width: 1080px) {
@@ -24,22 +24,23 @@
     font-size: 87.5%;
   }
 }
+
 body {
-  background: var(--Background);
-  color: var(--Heading);
+  color: var(--white);
+  background: var(--black);
 }
 
-body,input,textarea,select,button{
-  font-weight: 400;
+body, input, textarea, select, button {
   font-size: 1rem;
-  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-a{
+a {
   color: inherit;
   text-decoration: none;
 }
